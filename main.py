@@ -5,8 +5,8 @@ from tkinter import ttk, filedialog
 from datetime import timedelta, datetime
 
 
-access_key = "AKIA2ZFOWQQUWCERQYXU"
-secret_key = "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"
+access_key = ""
+secret_key = ""
 
 class FBS3:
     def __init__(self, access_key:str, secret_key:str) -> None:
